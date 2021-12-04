@@ -1,1 +1,1 @@
-rootProject.name = "plastic-jb-ide"
+rootProject.name = "plastic-jetbrains"
