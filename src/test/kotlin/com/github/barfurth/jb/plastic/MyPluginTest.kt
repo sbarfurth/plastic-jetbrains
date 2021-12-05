@@ -1,4 +1,4 @@
-package com.github.barfurth.plasticjetbrains
+package com.github.barfurth.jb.plastic
 
 import com.intellij.ide.highlighter.XmlFileType
 import com.intellij.psi.xml.XmlFile

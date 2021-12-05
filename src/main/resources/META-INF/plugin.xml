@@ -1,15 +1,13 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-  <id>com.github.barfurth.plasticjetbrains</id>
+  <id>com.github.barfurth.jb.plastic</id>
   <name>Plastic</name>
   <vendor>barfurth</vendor>
 
   <depends>com.intellij.modules.platform</depends>
-  <depends optional="true" config-file="keywords-java.xml">com.intellij.java</depends>
+  <depends optional="true" config-file="coloring-java.xml">com.intellij.java</depends>
+  <depends optional="true" config-file="coloring-kotlin.xml">org.jetbrains.kotlin</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="com.github.barfurth.plasticjetbrains" path="/themes/plastic.theme.json" />
-
-    <applicationService serviceImplementation="com.github.barfurth.plasticjetbrains.highlighter.KeywordHighlighter"/>
+    <themeProvider id="com.github.barfurth.jb.plastic" path="/themes/plastic.theme.json" />
   </extensions>
 </idea-plugin>
