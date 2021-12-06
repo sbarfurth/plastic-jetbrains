@@ -5,5 +5,5 @@
 ## [Unreleased]
 
 ### Added
-- keyword highlighting adapted from https://github.com/clutcher/comments_highlighter
+- keyword highlighting for Java and Kotlin
 - initial port of the theme

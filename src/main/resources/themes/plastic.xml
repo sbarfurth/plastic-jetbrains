@@ -77,20 +77,25 @@
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="d19a66" />
   </colors>
   <attributes>
-    <!--    PLASTIC SPECIFIC CONFIG-->
-    <option name="PLASTIC_CONSTANT">
+    <!-- SEMANTIC COLORING CONFIG-->
+    <option name="SEMANTIC_CONSTANT">
       <value>
         <option name="FOREGROUND" value="56b6c2" />
       </value>
     </option>
-    <option name="PLASTIC_STORAGE">
+    <option name="SEMANTIC_STORAGE">
       <value>
         <option name="FOREGROUND" value="61afef" />
       </value>
     </option>
-    <option name="PLASTIC_TYPE">
+    <option name="SEMANTIC_TYPE">
       <value>
         <option name="FOREGROUND" value="e5c07b" />
+      </value>
+    </option>
+    <option name="SEMANTIC_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="b57edc" />
       </value>
     </option>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">

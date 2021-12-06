@@ -3,11 +3,11 @@ package com.github.barfurth.jb.plastic.annotator
 import com.intellij.openapi.editor.DefaultLanguageHighlighterColors
 import com.intellij.openapi.editor.colors.TextAttributesKey
 
-enum class PlasticTokenType {
-  CONSTANT, STORAGE, TYPE;
+enum class SemanticTokenType {
+  CONSTANT, STORAGE, TYPE, FUNCTION;
 
   fun getAttributeKey(): TextAttributesKey {
-    val name = "PLASTIC_${this.name}"
+    val name = "SEMANTIC_${this.name}"
     return TextAttributesKey.createTextAttributesKey(name, DefaultLanguageHighlighterColors.KEYWORD)
   }
 }

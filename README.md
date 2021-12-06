@@ -6,10 +6,10 @@
 
 <!-- Plugin description -->
 This is a port of the [Plastic theme](https://plastictheme.com/) by [Will Stone](https://wstone.io/) adapted for
-Jetbrains IDEs. In order to set some colors a few components from the
-[comments highlighter](https://plugins.jetbrains.com/plugin/12895-comments-highlighter) plugin by
-[clutcher](https://github.com/clutcher) were copied and modified. This allows separate highlighting of some things
-Jetbrains Platform IDEs do not usually allow highlighting of.
+Jetbrains IDEs. In order to set some colors a custom annotator was implemented. This allows separate highlighting of
+some things Jetbrains Platform IDEs do not usually allow highlighting of. The custom annotator requires a specific
+implementation per language in order to define which keywords are to be highlighted in what colors. The goal is to
+be closer to the semantic highlighting used by VS Code.
 <!-- Plugin description end -->
 
 ## Installation

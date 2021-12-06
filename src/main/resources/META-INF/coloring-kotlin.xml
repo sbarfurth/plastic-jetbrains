@@ -1,5 +1,0 @@
-<idea-plugin>
-  <extensions defaultExtensionNs="com.intellij">
-    <annotator language="kotlin" implementationClass="com.github.barfurth.jb.plastic.annotator.KotlinPlasticColoringAnnotator"/>
-  </extensions>
-</idea-plugin>

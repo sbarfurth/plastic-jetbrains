@@ -8,12 +8,17 @@ import com.intellij.openapi.util.Pair
 import com.intellij.openapi.util.TextRange
 import com.intellij.psi.PsiElement
 
-abstract class AbstractPlasticColoringAnnotator : Annotator {
+abstract class AbstractSemanticColoringAnnotator : Annotator {
 
   override fun annotate(element: PsiElement, holder: AnnotationHolder) {
-    if(!isColorable(element)) return
+    if(!isKeyword(element)) return
 
     val highlight = getHighlight(element.text, element.textRange.startOffset) ?: return
+
+    if(element.textMatches("abstract")) {
+      println(highlight)
+      println(getSemanticKeywords())
+    }
 
     holder.newSilentAnnotation(HighlightSeverity.INFORMATION)
       .range(highlight.first)
@@ -22,25 +27,11 @@ abstract class AbstractPlasticColoringAnnotator : Annotator {
   }
 
   private fun getHighlight(word: String, startOffset: Int): Pair<TextRange, TextAttributesKey>? {
-    val type = getTypeByWord(word) ?: return null
+    val type = getSemanticKeywords()[word] ?: return null
     return Pair(TextRange(startOffset, startOffset + word.length), type.getAttributeKey())
   }
 
-  private fun isColorable(element: PsiElement): Boolean {
-    return getColorableClasses().any { clazz -> clazz.isAssignableFrom(element.javaClass) }
-  }
-
-  private fun getTypeByWord(word: String): PlasticTokenType? {
-    if(getConstantKeywords().contains(word)) return PlasticTokenType.CONSTANT
-    if(getStorageKeywords().contains(word)) return PlasticTokenType.STORAGE
-    if(getTypeKeywords().contains(word)) return PlasticTokenType.TYPE
-    return null
-  }
-
-  protected abstract fun getColorableClasses(): Collection<Class<*>>
-
-  protected abstract fun getConstantKeywords(): Collection<String>
-  protected abstract fun getStorageKeywords(): Collection<String>
-  protected abstract fun getTypeKeywords(): Collection<String>
+  protected abstract fun isKeyword(element: PsiElement): Boolean
+  protected abstract fun getSemanticKeywords(): Map<String, SemanticTokenType>
 
 }
