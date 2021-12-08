@@ -1,8 +1,8 @@
 # plastic-jetbrains
 
 ![Build](https://github.com/barfurth/plastic-jetbrains/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/18166-plastic.svg)](https://plugins.jetbrains.com/plugin/18166-plastic)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/18166-plastic.svg)](https://plugins.jetbrains.com/plugin/18166-plastic)
 
 <!-- Plugin description -->
 This is a port of the [Plastic theme](https://plastictheme.com/) by [Will Stone](https://wstone.io/) adapted for
