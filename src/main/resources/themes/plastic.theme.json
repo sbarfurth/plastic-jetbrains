@@ -150,12 +150,12 @@
       "underlinedTabBackground": "shark"
     },
     "FileColor": {
-      "Blue": "cornflowerBlue",
-      "Green": "olivine",
-      "Orange": "harvestGold",
-      "Rose": "lavender",
-      "Violet": "lavender",
-      "Yellow": "harvestGold"
+      "Blue": "#162f4c",
+      "Green": "#323c31",
+      "Orange": "#40322a",
+      "Rose": "#3b2935",
+      "Violet": "#372e45",
+      "Yellow": "#423f2e"
     },
     "Group": {
       "disabledSeparatorColor": "bunker"

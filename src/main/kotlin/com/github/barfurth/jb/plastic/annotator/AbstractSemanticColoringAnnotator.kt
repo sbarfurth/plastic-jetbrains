@@ -15,11 +15,6 @@ abstract class AbstractSemanticColoringAnnotator : Annotator {
 
     val highlight = getHighlight(element.text, element.textRange.startOffset) ?: return
 
-    if(element.textMatches("abstract")) {
-      println(highlight)
-      println(getSemanticKeywords())
-    }
-
     holder.newSilentAnnotation(HighlightSeverity.INFORMATION)
       .range(highlight.first)
       .textAttributes(highlight.second)

@@ -3,6 +3,9 @@
 # plastic-jetbrains Changelog
 
 ## [Unreleased]
+### Added
+
+* improve muted colors to be less invasive to the eye
 
 ## [0.1.0-beta]
 ### Added
