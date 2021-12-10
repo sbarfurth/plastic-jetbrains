@@ -311,9 +311,8 @@
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="2f333a" />
-        <option name="EFFECT_COLOR" value="1085ff" />
-        <option name="ERROR_STRIPE_COLOR" value="1085ff" />
+        <option name="BACKGROUND" value="3e2426" />
+        <option name="ERROR_STRIPE_COLOR" value="D74E42" />
       </value>
     </option>
     <option name="BUILDOUT.KEY">
