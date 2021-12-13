@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+## [0.2.0]
+- improve muted colors to be less invasive to the eye
+- update breakpoint background to be red-ish
+
 ## [0.2.0-beta]
 - improve muted colors to be less invasive to the eye
 - update breakpoint background to be red-ish
