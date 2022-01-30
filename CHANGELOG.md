@@ -3,6 +3,8 @@
 # plastic-jetbrains Changelog
 
 ## [Unreleased]
+
+## [0.3.0]
 ### Fixed
 - set maximum build number to 221.* for current EAP (fixes #5)
 
