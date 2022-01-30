@@ -3,6 +3,8 @@
 # plastic-jetbrains Changelog
 
 ## [Unreleased]
+
+## [0.3.0]
 ### Fixed
 - remove maximum build number restriction for compatibility with upcoming IDE versions (fixes #5)
 
