@@ -3,12 +3,11 @@
 # plastic-jetbrains Changelog
 
 ## [Unreleased]
+### Fixed
+- remove maximum build number restriction for compatibility with upcoming IDE versions
 
 ## [0.2.0]
-- improve muted colors to be less invasive to the eye
-- update breakpoint background to be red-ish
-
-## [0.2.0-beta]
+### Changed
 - improve muted colors to be less invasive to the eye
 - update breakpoint background to be red-ish
 
