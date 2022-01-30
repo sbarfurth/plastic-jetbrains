@@ -3,6 +3,9 @@
 # plastic-jetbrains Changelog
 
 ## [Unreleased]
+### Changed
+- use updated version for intellij during build (2021.*)
+
 ### Fixed
 - remove maximum build number restriction for compatibility with upcoming IDE versions
 
