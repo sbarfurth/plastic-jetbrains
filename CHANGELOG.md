@@ -4,11 +4,7 @@
 
 ## [Unreleased]
 ### Fixed
-- until IDE version range calculated incorrectly from properties
-
-## [0.3.0]
-### Fixed
-- remove maximum build number restriction for compatibility with upcoming IDE versions (fixes #5)
+- set maximum build number to 221.* for current EAP (fixes #5)
 
 ## [0.2.0]
 ### Changed
