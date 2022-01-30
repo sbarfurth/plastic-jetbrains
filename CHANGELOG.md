@@ -3,6 +3,8 @@
 # plastic-jetbrains Changelog
 
 ## [Unreleased]
+### Fixed
+- until IDE version range calculated incorrectly from properties
 
 ## [0.3.0]
 ### Fixed
