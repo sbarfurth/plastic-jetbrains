@@ -1,5 +1,7 @@
 # plastic-jetbrains
 
+**This theme is no longer maintained.**
+
 ![Build](https://github.com/barfurth/plastic-jetbrains/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/18166-plastic.svg)](https://plugins.jetbrains.com/plugin/18166-plastic)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/18166-plastic.svg)](https://plugins.jetbrains.com/plugin/18166-plastic)
